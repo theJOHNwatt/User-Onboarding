@@ -20,3 +20,31 @@
 .App-link {
   color: #09d3ac;
 }
+
+
+.user-form {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  max-width:100%;
+  width: 15%;
+  padding:20px 50px;
+  margin: 20px auto;
+  border: 5px double black;
+}
+
+.form-name, .form-email, .form-password {
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100px;
+  display: block;
+  margin: 10px auto;
+}
+
+.returned-data{
+  border-bottom: 1px dashed rgb(37, 37, 37);
+  width: 15%;
+  margin: 10px auto;
+}
